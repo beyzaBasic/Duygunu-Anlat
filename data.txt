@@ -354,7 +354,7 @@ const SCENES = [
   },
   {
     title: "Korku Evi",
-    description: "Lunaparkın ürkütici evine girdiniz.",
+    description: "Lunaparkın ürkütücü evine girdiniz.",
     context: "Biriniz çok geriliyor ama belli etmemeye çalışıyor."
   },
   {
