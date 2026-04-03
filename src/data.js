@@ -444,7 +444,7 @@ const SCENES = [
   },
   {
     title: "Yanlış Vagon",
-    description: "Trendde yanlış vagona bindiniz ve kapılar kapandı.",
+    description: "Trende yanlış vagona bindiniz ve kapılar kapandı.",
     context: "Arkadaşınız başka vagonda ve bir sonraki durakta ineceksiniz."
   },
   {
