@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Duygu Avcıları</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="screen-setup" class="screen active">
+        <h1>Duygu Avcıları</h1>
+        <p>En az 4, en fazla 8 kişiyle oynanır.</p>
+        
+        <input type="text" id="player-input" placeholder="Oyuncu Adı" maxlength="12">
+        <button onclick="game.addPlayer()">Listeye Ekle</button>
+        
+        <div id="player-list"></div>
+        <button id="start-btn" class="action-btn" onclick="game.start()" disabled>Oyunu Başlat</button>
+    </div>
+
+    <!-- SAHNE SEÇİM EKRANI -->
+    <div id="screen-scene-select" class="screen" style="display:none;">
+        <h1>🎬 Sahne Seçimi</h1>
+        <p class="subtitle">Bu tur oynanacak sahneyi seçin</p>
+        
+        <div id="scene-card-display" class="scene-card hidden">
+            <div class="scene-card-header">
+                <span class="scene-icon">🎭</span>
+                <h2 id="scene-title">Sahne Başlığı</h2>
+            </div>
+            <div class="scene-card-body">
+                <p id="scene-description">Sahne açıklaması burada görünecek.</p>
+                <p id="scene-context" class="scene-context">Ek bağlam bilgisi.</p>
+            </div>
+        </div>
+
+        <div class="scene-select-buttons">
+            <button id="pick-scene-btn" class="action-btn secondary" onclick="game.pickRandomScene()">
+                🎲 Sahne Seç
+            </button>
+            <button id="confirm-scene-btn" class="action-btn" onclick="game.confirmScene()" disabled>
+                ✅ Bu Sahneyi Kullan
+            </button>
+        </div>
+    </div>
+
+    <div id="screen-wheel" class="screen" style="display:none;">
+        <h1 id="wheel-title">Duygunu Çek</h1>
+        <h2 id="wheel-player-name" style="text-align:center;">Oyuncu Adı</h2>
+        
+        <div id="pointer"></div>
+        <canvas id="wheel"></canvas>
+        
+        <div id="popup-overlay"></div>
+        <div id="popup">
+            <span id="popup-dot"></span>
+            <span id="popup-color-name"></span>
+            <span id="popup-name"></span>
+            <br>
+            <button onclick="game.continueAfterDraw()" style="margin-top:20px;">Devam Et</button>
+        </div>
+    </div>
+
+    <div id="screen-gameplay" class="screen" style="display:none;">
+        <h1>🎬 Sahne Zamanı!</h1>
+        
+        <!-- Sahne Kartı -->
+        <div class="scene-card">
+            <div class="scene-card-header">
+                <span class="scene-icon">🎭</span>
+                <h2 id="scene-title-display">Sahne Başlığı</h2>
+            </div>
+            <div class="scene-card-body">
+                <p id="scene-text">Sahne metni buraya gelecek.</p>
+                <p id="scene-context-display" class="scene-context"></p>
+            </div>
+        </div>
+        
+        <!-- Oyuncu Bilgileri -->
+        <div class="actors-container">
+            <div class="actor-box" id="actor-1-box">
+                <span class="actor-label">Anlatan</span>
+                <h2 id="actor-1">...</h2>
+                <div class="emotion-reveal">
+                    <button class="emotion-btn" onclick="game.toggleEmotion('actor-1')">
+                        👁️ Duygunu Göster
+                    </button>
+                    <div class="emotion-display hidden" id="actor-1-emotion">
+                        <span class="emotion-dot"></span>
+                        <span class="emotion-name"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="actor-box" id="actor-2-box">
+                <span class="actor-label">Partner</span>
+                <h2 id="actor-2">...</h2>
+                <div class="emotion-reveal">
+                    <button class="emotion-btn" onclick="game.toggleEmotion('actor-2')">
+                        👁️ Duygunu Göster
+                    </button>
+                    <div class="emotion-display hidden" id="actor-2-emotion">
+                        <span class="emotion-dot"></span>
+                        <span class="emotion-name"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="timer-display" id="timer">01:30</div>
+        <button class="action-btn" onclick="game.endScene()">Süreyi Bitir</button>
+    </div>
+
+    <div id="screen-guess" class="screen" style="display:none;">
+        <h1>Jüri Kararı</h1>
+        <p>Sürükle-bırak (matruşka) sistemi ve tahminler buraya kodlanacak.</p>
+        <button class="action-btn" onclick="game.startTurn()">Sonraki Tura Geç</button>
+    </div>
+
+    <script src="src/data.js"></script>
+    <script src="src/wheel.js"></script>
+    <script src="src/game.js"></script>
+</body>
+</html>
