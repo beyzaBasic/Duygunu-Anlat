@@ -261,5 +261,200 @@ const SCENES = [
     title: "Buz Pisti",
     description: "İlk kez buz pateni yapıyorsunuz.",
     context: "Biriniz düştü ve kalkamıyor."
+  },
+  {
+    title: "Asansörde Karaoke",
+    description: "AVM asansöründe birinin telefonu yüksek sesle müzik çalıyor.",
+    context: "Şarkı çok tanıdık ve ikiniz de sözlerini biliyorsunuz."
+  },
+  {
+    title: "Yanlış Oda",
+    description: "Otelde yanlışlıkla birinin odasına girdiniz.",
+    context: "Oda sahibi az sonra kapıdan girecek."
+  },
+  {
+    title: "Kedi Kurtarma",
+    description: "Bir ağaca sıkışmış kediyi kurtarmaya çalışıyorsunuz.",
+    context: "Kedi her ikiinize de tıslıyor."
+  },
+  {
+    title: "Ters Köşe Teklif",
+    description: "Biriniz diğerine beklenmedik bir iş teklifi yapacak.",
+    context: "Teklif reddedilirse arkadaşlık bitebilir."
+  },
+  {
+    title: "Kayıp Telefon",
+    description: "Restoranda telefonunuz kayboldu ve garsonu suçluyorsunuz.",
+    context: "Telefon aslında çantanızın içinde."
+  },
+  {
+    title: "Sahil Fırtınası",
+    description: "Plajda aniden hava bozdu ve herkes kaçışıyor.",
+    context: "Şemsiyeniz uçtu ve peşinden koşmanız gerekiyor."
+  },
+  {
+    title: "Yanlış Hediye",
+    description: "Birbirinize aldığınız hediyeler yanlışlıkla değişti.",
+    context: "Her ikiniz de hediyeyi açmak zorunda."
+  },
+  {
+    title: "Komşunun Düğünü",
+    description: "Komşunuzun düğününde en ön masada oturuyorsunuz.",
+    context: "Gelin ve damat sürekli kavga ediyor."
+  },
+  {
+    title: "Otobüste Ayakta",
+    description: "Tıklım tıklım otobüste yan yana ayakta duruyorsunuz.",
+    context: "Otobüs her fren yaptığında birbirinize çarpıyorsunuz."
+  },
+  {
+    title: "Kaçan Balon",
+    description: "Çocukluk arkadaşınızın elinden balonu uçurdunuz.",
+    context: "Balon çok değerli bir anının sembolü."
+  },
+  {
+    title: "Yanlış Selfie",
+    description: "Birlikte selfie çekerken arka planda utanç verici bir şey oldu.",
+    context: "Fotoğraf zaten sosyal medyaya düştü."
+  },
+  {
+    title: "Sessiz Sinema",
+    description: "Sinemada çok sessiz bir sahnede ikiniz de gülmeye başladınız.",
+    context: "Herkes size dönüp bakıyor."
+  },
+  {
+    title: "Kayıp Cüzdan",
+    description: "Taksiden indiniz ve cüzdanınız takside kaldı.",
+    context: "Şoför aramıyor ve paranız yok."
+  },
+  {
+    title: "Sürpriz Bebek",
+    description: "Eski bir sevgiliniz size bebekle geldi.",
+    context: "Bebek size benziyor ve etrafta herkes var."
+  },
+  {
+    title: "Yanlış Toplantı",
+    description: "Girdiğiniz toplantının size ait olmadığını fark ettiniz.",
+    context: "Sunum yapmanız istendi ve çıkamıyorsunuz."
+  },
+  {
+    title: "Mahsur Kalan Asansör",
+    description: "AVM'nin cam asansöründe mahsur kaldınız.",
+    context: "Aşağıda yüzlerce insan size bakıyor."
+  },
+  {
+    title: "Ters Giden Piknik",
+    description: "Piknikte her şey ters gidiyor: yağmur, karıncalar, unutulmuş yiyecekler.",
+    context: "Biriniz 'Harika bir gün!' diye ısrar ediyor."
+  },
+  {
+    title: "Yanlış Mesaj",
+    description: "Patronunuza yazdığınız mesaj yanlışlıkla arkadaş grubuna gitti.",
+    context: "Mesajda patron hakkında bir şeyler yazıyor."
+  },
+  {
+    title: "Korku Evi",
+    description: "Lunaparkın korku evine girdiniz.",
+    context: "Biriniz çok korkuyor ama belli etmemeye çalışıyor."
+  },
+  {
+    title: "Yanlış Numara Araması",
+    description: "Telefonunuz çaldı, açtınız ve karşıdaki kişi sizi tanıyor gibi.",
+    context: "Kişi sizi eski bir dostunuz sanıyor ve duygusal konuşuyor."
+  },
+  {
+    title: "Son Dilim Pizza",
+    description: "Tabakta son bir dilim pizza kaldı ve ikiniz de almak istiyorsunuz.",
+    context: "Aranızda sessiz bir rekabet var."
+  },
+  {
+    title: "Yanlış Araba",
+    description: "Otoparkta yanlış arabaya bindiniz.",
+    context: "Arabanın gerçek sahibi az sonra gelecek."
+  },
+  {
+    title: "Beklenmedik Ödül",
+    description: "Katıldığınız bir çekilişi kazandınız ama sahnede konuşma yapmanız gerekiyor.",
+    context: "Mikrofon size verildi ve ne söyleyeceğinizi bilmiyorsunuz."
+  },
+  {
+    title: "Ters Giden Yemek",
+    description: "Birbirinize yemek yapmaya çalıştınız ama her ikisi de yanmış.",
+    context: "Açsınız ve dışarıda restoranlar kapalı."
+  },
+  {
+    title: "Kayıp Bilet",
+    description: "Konser biletlerinizi bulamıyorsunuz ve kapıda bekliyorsunuz.",
+    context: "Görevli 'Biletsiz giremezsiniz' diyor."
+  },
+  {
+    title: "Yanlış Fotoğraf",
+    description: "Aile yemeğinde çekilen fotoğrafta ikiniz de gözünüz kapalı çıktınız.",
+    context: "Fotoğraf aile grubunda paylaşıldı bile."
+  },
+  {
+    title: "Asansörde Dans",
+    description: "Ofis asansöründe ikiniz de aynı şarkıyı mırıldanmaya başladınız.",
+    context: "Asansör bir anda durdu ve patron içeri girdi."
+  },
+  {
+    title: "Ters Köşe Soru",
+    description: "Bir canlı yayında beklenmedik bir kişisel soru yöneltildi.",
+    context: "Kamera size döndü ve herkes cevabınızı bekliyor."
+  },
+  {
+    title: "Yanlış Kargo",
+    description: "Komşunuzun kargosu size geldi ve içinde çok tuhaf bir şey var.",
+    context: "Komşu kapıyı çalıyor ve kargosunu istiyor."
+  },
+  {
+    title: "Sahilde Kaybolmak",
+    description: "Sisli bir havada sahilde yürürken yolu kaybettiniz.",
+    context: "Telefonun şarjı bitmek üzere."
+  },
+  {
+    title: "Yanlış İsim",
+    description: "Birisi sizi sürekli yanlış isimle çağırıyor.",
+    context: "Düzeltmek istiyorsunuz ama kaba olmak istemiyorsunuz."
+  },
+  {
+    title: "Beklenmedik Ziyaret",
+    description: "Kapı çaldı, açtınız ve karşınızda eski bir öğretmeniniz var.",
+    context: "Öğretmen sizi hâlâ hatırlıyor ve notlarınızı soruyor."
+  },
+  {
+    title: "Ters Giden Kamp",
+    description: "Kamp çadırı kurulurken rüzgâr her şeyi dağıttı.",
+    context: "Gece oluyor ve hava soğuyor."
+  },
+  {
+    title: "Yanlış Rezervasyon",
+    description: "Restoranda rezervasyonunuz var ama isim listede yok.",
+    context: "Restoran dolu ve tek boş masa balayı çiftinin masası."
+  },
+  {
+    title: "Kayıp Anahtarlık",
+    description: "Birbirinize hediye ettiğiniz anahtarlıklardan birini kaybettiniz.",
+    context: "Diğer kişi sürekli 'Nerede anahtarlığım?' diye soruyor."
+  },
+  {
+    title: "Ters Geden Sürpriz",
+    description: "Bir arkadaşınıza sürpriz yaptınız ama o sizi yanlış anladı.",
+    context: "Sürpriz tamamen ters tepki ve şimdi durumu kurtarmaya çalışıyorsunuz."
+  },
+  {
+    title: "Yanlış Vagon",
+    description: "Trendde yanlış vagona bindiniz ve kapılar kapandı.",
+    context: "Arkadaşınız başka vagonda ve bir sonraki durakta ineceksiniz."
+  },
+  {
+    title: "Beklenmedik Buluşma",
+    description: "Eski sevgilinizle aynı kafede karşılaştınız.",
+    context: "Masada sadece bir boş yer var ve oturmak zorundasınız."
+  },
+  {
+    title: "Yanlış Anlaşılma",
+    description: "Bir şakanız yanlış anlaşıldı ve ortam gerildi.",
+    context: "Herkes size bakıyor ve bir açıklama bekliyor."
   }
 ];
