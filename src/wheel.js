@@ -148,3 +148,4 @@ function applyTransform() {
     canvas.style.top = '100px';
 }
 window.addEventListener('resize', applyTransform);
+

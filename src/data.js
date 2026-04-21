@@ -28,433 +28,433 @@ const GROUPS = [
 // Sahne Kartları - Her sahne: başlık, açıklama ve ek bağlam içerir
 const SCENES = [
   {
-    title: "Asansör Arızası",
-    description: "İki kat arasında mahsur kaldınız. Işıklar yanıp sönüyor.",
-    context: "Kimse sizi duymuyor gibi... Telefon çekmiyor."
+    title: "Asansördeki Ayna",
+    description: "Asansörde ayna karşısında duruyorsun. Yüzündeki ifade duygunu yansıtıyor.",
+    context: "Işıklar yanıp sönüyor ve kimse seni duymuyor."
   },
   {
-    title: "Kasada Bekleyenler",
-    description: "Süpermarket kasasında, önünüzdeki kişi bozuk para sayıyor.",
-    context: "Arkanızda uzun bir kuyruk var ve herkes sabırsız."
+    title: "Kasadaki Bant",
+    description: "Süpermarket kasasında bant hareket etmiyor. Sabırsızlığın artıyor.",
+    context: "Arkanda uzun bir kuyruk var ve herkes sabırsız."
   },
   {
-    title: "Hastane Bekleme Salonu",
-    description: "Gergin bir şekilde sıranızı bekliyorsunuz.",
-    context: "Yanınızdaki kişi sürekli soru soruyor."
+    title: "Bekleme Salonu Koltuğu",
+    description: "Hastane bekleme salonunda koltukta oturuyorsun. Gerginliğin bedenine yayılıyor.",
+    context: "Yanındaki kişi sürekli soru soruyor."
   },
   {
-    title: "Yıllar Sonra Karşılaşma",
-    description: "Eski bir arkadaşla yolda karşılaştınız.",
-    context: "Aranızda açıklanmamış bir mesele kalmıştı."
+    title: "Eski Fotoğraf",
+    description: "Eski bir fotoğrafı elinde tutuyorsun. Geçmiş anılar duygunu tetikliyor.",
+    context: "Aranda açıklanmamış bir mesele kalmıştı."
   },
   {
-    title: "Unutulan Cüzdan",
-    description: "Hesap geldi ama ikiniz de cüzdanınızı bulamıyorsunuz.",
-    context: "Garson bekliyor, masada diğer müşteriler de var."
+    title: "Boş Cüzdan",
+    description: "Cüzdanın boş, hesap geldi. Çaresizliğin içini dolduruyor.",
+    context: "Garson bekliyor, masada diğer müşteriler var."
   },
   {
-    title: "Kütüphane Sırrı",
-    description: "Kütüphanede sessiz olmanız gereken bir anda yan yana oturuyorsunuz.",
-    context: "Biriniz diğerine çok önemli bir şey fısıldamak istiyor."
+    title: "Sessiz Kitap",
+    description: "Kütüphanede sessiz bir kitap okuyorsun. İçindeki sırlar duygunu uyandırıyor.",
+    context: "Yan yana oturuyorsun ve önemli bir şey fısıldamak istiyorsun."
   },
   {
-    title: "Kaçan İkramiye",
-    description: "Piyango biletinize bakıyorsunuz, son rakamla büyük ikramiye kaçmış.",
-    context: "Yanınızdaki kişi zaten kazanacağını biliyordu."
+    title: "Kaçan Bilet",
+    description: "Piyango biletine bakıyorsun, ikramiye kaçtı. Hayal kırıklığın büyüyor.",
+    context: "Yanındaki kişi kazanacağını biliyordu."
   },
   {
-    title: "Kayıp Bagaj",
-    description: "Havalimanında bagajınız kayboldu ve görevli yardımcı olamıyor.",
+    title: "Boş Bagaj",
+    description: "Havalimanında bagajın kayboldu. Görevli yardımcı olamıyor.",
     context: "İçinde çok değerli bir eşya vardı."
   },
   {
-    title: "Yanlış Numara",
-    description: "Telefonunuzdan yanlışlıkla birine çok samimi bir mesaj gönderdiniz.",
-    context: "Mesajı alan kişi tam karşınızda oturuyor."
+    title: "Yanlış Mesaj",
+    description: "Telefonunda yanlış mesaj gönderdin. Utanç verici bir durum.",
+    context: "Mesajı alan kişi karşında oturuyor."
   },
   {
-    title: "Komşu Şikayeti",
-    description: "Komşunuz gürültüden şikayet etmeye kapınıza geldi.",
-    context: "Aslında gürültü yapan siz değilsiniz."
+    title: "Kapı Zili",
+    description: "Kapı zilini duyuyorsun, komşu şikayetçi. Gerginliğin artıyor.",
+    context: "Aslında gürültü yapan sen değilsin."
   },
   {
-    title: "İlk Buluşma",
-    description: "Bir restoranda ilk kez buluşuyorsunuz.",
-    context: "İkiniz de çok gerginsiniz ama belli etmemeye çalışıyorsunuz."
+    title: "Restoran Masası",
+    description: "Restoranda masada oturuyorsun, ilk buluşma. Gerginliğin yüzüne vuruyor.",
+    context: "Çok gerginsin ama belli etmemeye çalışıyorsun."
   },
   {
     title: "Otobüs Durağı",
-    description: "Son otobüsü kaçırdınız ve durakta bekliyorsunuz.",
-    context: "Hava soğuk, yağmur başlamak üzere."
+    description: "Otobüs durağında bekliyorsun, son otobüs kaçtı. Soğuk hava duygunu donduruyor.",
+    context: "Yağmur başlamak üzere."
   },
   {
-    title: "Sürpriz Parti",
-    description: "Arkadaşınıza sürpriz parti hazırlıyorsunuz ama o erken geldi.",
-    context: "Her şeyi toplamak için sadece birkaç dakikanız var."
+    title: "Sürpriz Parti Dekorasyonu",
+    description: "Sürpriz parti hazırlıyorsun ama erken geldi. Panik içindesin.",
+    context: "Her şeyi toplamak için sadece birkaç dakikan var."
   },
   {
     title: "Kayıp Anahtar",
-    description: "Eve geldiniz ama anahtarınız yok. Kapıyı kilitleyen kişi yanınızda.",
-    context: "İkiniz de çok yorgunsunuz ve hava geç."
+    description: "Anahtarını kaybettin, eve giremiyorsun. Yorgunluk ve öfke karışıyor.",
+    context: "Kapıyı kilitleyen kişi yanındaydı."
   },
   {
-    title: "Yanlış Tren",
-    description: "Trene bindiniz ama yanlış yöne gittiğinizi fark ettiniz.",
+    title: "Yanlış Tren Bileti",
+    description: "Trende yanlış yöne gidiyorsun. Fark ettiğinde çaresizlik başlıyor.",
     context: "Bir sonraki tren için 2 saat beklemeniz gerekecek."
   },
   {
-    title: "Restoran İtirafı",
-    description: "Yemek yerken biriniz diğerine önemli bir itirafta bulunacak.",
-    context: "Masada başka bir çift de var ve sizi dinliyor gibi."
+    title: "Restoran Masası",
+    description: "Yemek yerken önemli bir itirafta bulunacaksın. İçindeki heyecan artıyor.",
+    context: "Masada başka bir çift var ve seni dinliyor gibi."
   },
   {
-    title: "Fırtına Gecesi",
-    description: "Şiddetli fırtına nedeniyle dışarıda mahsur kaldınız.",
+    title: "Fırtınalı Kulübe",
+    description: "Fırtına nedeniyle kulübede mahsur kaldın. Korkun artıyor.",
     context: "Sığınacak tek yer eski bir kulübe."
   },
   {
-    title: "İş Mülakati",
-    description: "İkiniz de aynı pozisyon için mülakata girdiniz.",
-    context: "Sonuçlar az sonra açıklanacak."
+    title: "Mülakat Masası",
+    description: "İş mülakatındasın, sonuçlar açıklanacak. Gerginliğin zirvesi.",
+    context: "İkiniz de aynı pozisyon için girdiniz."
   },
   {
-    title: "Düğün Hazırlığı",
-    description: "En yakın arkadaşınızın düğünü için son hazırlıkları yapıyorsunuz.",
-    context: "Gelinlik hala gelmedi ve müzik çalar bozuldu."
+    title: "Düğün Hazırlıkları",
+    description: "Düğün hazırlıkları yapıyorsun, her şey ters gidiyor. Stres dolu.",
+    context: "Gelinlik gelmedi ve müzik çalar bozuldu."
   },
   {
     title: "Trafik Sıkışması",
-    description: "Saatlerce trafikte mahsur kaldınız.",
-    context: "Çok önemli bir toplantıya yetişmeniz gerekiyor."
+    description: "Trafikte mahsur kaldın, saatlerce. Sabırsızlığın dorukta.",
+    context: "Çok önemli bir toplantıya yetişmen gerekiyor."
   },
   {
     title: "Kamp Ateşi",
-    description: "Ormanda kamp yapıyorsunuz, ateşin etrafında oturuyorsunuz.",
+    description: "Ormanda ateşin etrafında oturuyorsun. Garip sesler korkunu artırıyor.",
     context: "Uzaktan garip sesler geliyor."
   },
   {
-    title: "Sınav Sonucu",
-    description: "Önemli bir sınavın sonuçları açıklanmak üzere.",
-    context: "İkiniz de çok çalıştınız ama sadece biri kazanabilecek."
+    title: "Sınav Sonucu Ekranı",
+    description: "Sınav sonuçlarını bekliyorsun. Gerilim içindesin.",
+    context: "Çok çalıştın ama kazanma ihtimalin düşük."
   },
   {
-    title: "Tatil Planı",
-    description: "Hayalinizdeki tatil için havaalanındasınız.",
-    context: "Uçuş iptal edildi ve alternatif yok."
+    title: "İptal Edilen Uçuş",
+    description: "Havaalanındasın, uçuş iptal edildi. Umutsuzluk yayılıyor.",
+    context: "Alternatif yok."
   },
   {
-    title: "Komşu Ziyareti",
-    description: "Yeni taşınan komşunuz sizi yemeğe davet etti.",
-    context: "Yemek pek iyi değil ama belli etmemeye çalışıyorsunuz."
+    title: "Komşu Yemeği",
+    description: "Komşunun yemeğinde oturuyorsun, yemek kötü. Nezaketini korumaya çalışıyorsun.",
+    context: "Yemek pek iyi değil."
   },
   {
-    title: "Kayıp Köpek",
-    description: "Mahallede kayıp bir köpek arıyorsunuz.",
-    context: "Köpeğinizi son kez parkta gören sizdiniz."
+    title: "Kayıp Köpek İlani",
+    description: "Kayıp köpek arıyorsun, ilanlara bakıyorsun. Üzüntün artıyor.",
+    context: "Köpeğini son kez parkta gördün."
   },
   {
     title: "Doğum Günü Sürprizi",
-    description: "Bir arkadaşınıza doğum günü sürprizi hazırlıyorsunuz.",
-    context: "Misafirler gelmeye başladı ama doğum günü çocuğu yolda."
+    description: "Sürpriz hazırlıyorsun ama erken geldi. Panik halindesin.",
+    context: "Misafirler geldi ama doğum günü çocuğu yolda."
   },
   {
-    title: "Market Kavgası",
-    description: "Son kalan indirimli ürün için iki kişi aynı anda uzandınız.",
-    context: "Etraftaki insanlar size bakıyor."
+    title: "İndirimli Ürün",
+    description: "Market raflarında indirimli ürünü almaya çalışıyorsun. Rekabet içindesin.",
+    context: "Etraftaki insanlar sana bakıyor."
   },
   {
-    title: "Plazada Asansör",
-    description: "40 katlı bir binanın asansöründe mahsur kaldınız.",
-    context: "İçinizden biri kapalı alanlardan rahatsız."
+    title: "Cam Asansör",
+    description: "40 katlı binanın asansöründe mahsur kaldın. Korkun yükseliyor.",
+    context: "Aşağıda yüzlerce insan var."
   },
   {
     title: "Eski Fotoğraflar",
-    description: "Tavan arasında eski fotoğraflar buldunuz.",
+    description: "Tavan arasında eski fotoğraflar buldun. Geçmiş sırlar duygunu uyandırıyor.",
     context: "Fotoğraflardan biri aile sırrını ortaya çıkarabilir."
   },
   {
-    title: "Karantinada Komşular",
-    description: "Pandemi nedeniyle aynı apartmanda karantinasınız.",
-    context: "Balkonlardan birbirinize sesleniyorsunuz."
+    title: "Karantina Balkonu",
+    description: "Balkonda oturuyorsun, karantina nedeniyle. Yalnızlık hissediyorsun.",
+    context: "Komşularla sesleniyorsunuz."
   },
   {
-    title: "Otopark Tartışması",
-    description: "İkiniz de aynı park yerine park etmeye çalışıyorsunuz.",
+    title: "Park Yeri",
+    description: "Otoparkta park yeri arıyorsun. Öfken artıyor.",
     context: "Arkanızda kornalar çalıyor."
   },
   {
     title: "Yarışma Finali",
-    description: "Bir bilgi yarışmasının finalindesiniz.",
-    context: "Son soru çok zor ve süre azalıyor."
+    description: "Bilgi yarışması finalindesin. Son soru zor. Gerilim zirvede.",
+    context: "Süre azalıyor."
   },
   {
-    title: "Havalimanı Vedası",
-    description: "Biriniz yurt dışına taşınıyor, havaalanında vedalaşıyorsunuz.",
-    context: "Uçuş anonsu yapıldı ama henüz ayrılamıyorsunuz."
+    title: "Havalimanı Veda",
+    description: "Havaalanında vedalaşıyorsun. Üzüntün içini dolduruyor.",
+    context: "Uçuş anonsu yapıldı."
   },
   {
-    title: "Restoran Eleştirisi",
-    description: "Yemek yediğiniz restoranda yemek beklediğiniz gibi çıkmadı.",
-    context: "Garsonla konuşmak size düştü."
+    title: "Restoran Yemeği",
+    description: "Restoranda yemek kötü çıktı. Eleştiri yapman gerekiyor.",
+    context: "Garsonla konuşmak sana düştü."
   },
   {
     title: "Gizli Hediye",
-    description: "Birbirinize gizlice hediye almaya çalışıyorsunuz.",
-    context: "Hediyeler neredeyse birbirinize aynı anda verilecek."
+    description: "Hediye almaya çalışıyorsun, gizlice. Heyecan verici.",
+    context: "Hediyeler aynı anda verilecek."
   },
   {
-    title: "Spor Salonu",
-    description: "İlk kez birlikte spor salonuna gittiniz.",
-    context: "Aletlerin nasıl kullanıldığını bilmiyorsunuz."
+    title: "Spor Salonu Aleti",
+    description: "Spor salonunda alet kullanıyorsun, ilk kez. Şaşkınlığın artıyor.",
+    context: "Nasıl kullanılacağını bilmiyorsun."
   },
   {
     title: "Deniz Kenarı",
-    description: "Sahilde gün batımını izliyorsunuz.",
-    context: "Birinizin ayağına denizanası soktu."
+    description: "Sahilde oturuyorsun, gün batımı izliyorsun. Sakinlik içindesin.",
+    context: "Ama ayağına denizanası soktu."
   },
   {
-    title: "Kitap Kulübü",
-    description: "Aynı kitabı okudunuz ama tamamen farklı yorumlarınız var.",
-    context: "Diğer üyeler sizin tartışmanızı bekliyor."
+    title: "Kitap Kulübü Kitabı",
+    description: "Kitap kulübünde kitabı okuyorsun. Farklı yorumların var.",
+    context: "Diğer üyeler tartışmanızı bekliyor."
   },
   {
     title: "Kaçan Otobüs",
-    description: "Otobüs tam burnunuzun önünde kapıları kapatıyor.",
-    context: "Bir sonraki otobüs 45 dakika sonra."
+    description: "Otobüs kapıları kapandı, kaçırdın. Hayal kırıklığı.",
+    context: "Bir sonraki 45 dakika sonra."
   },
   {
-    title: "Doktor Beklerken",
-    description: "Muayenehanede kötü haber bekliyorsunuz.",
-    context: "Sıranız geldi ama içeriye tek başınıza gireceksiniz."
+    title: "Doktor Bekleme",
+    description: "Muayenehanede bekliyorsun, kötü haber için. Korkun artıyor.",
+    context: "Sıran geldi."
   },
   {
-    title: "Yeni Ev",
-    description: "Yeni taşındığınız evin ilk gecesi.",
-    context: "Kutular hala açılmadı ve yatak yok."
+    title: "Yeni Ev Kutuları",
+    description: "Yeni evinde kutular açılmamış. Yorgunluk ve heyecan karışıyor.",
+    context: "Yatak yok."
   },
   {
     title: "Tiyatro Sahnesi",
-    description: "Amatör tiyatro oyununda sahnedesiniz.",
-    context: "Partneriniz repliklerini unuttu."
+    description: "Sahnedesin, partnerin repliklerini unuttu. Panik içindesin.",
+    context: "Amatör oyun."
   },
   {
-    title: "Beklenmedik Misafir",
-    description: "Kapı çaldı, uzaktan bir akraba geldi.",
-    context: "Ev dağınık ve hazırlıksız yakalandınız."
+    title: "Kapı Zili",
+    description: "Kapı çaldı, beklenmedik misafir. Hazırlıksızsın.",
+    context: "Ev dağınık."
   },
   {
     title: "Son Bilet",
-    description: "Konser için son kalan iki bilet sizde.",
-    context: "Bir arkadaşınız da gelmek istiyor ama bilet yok."
+    description: "Konser bileti elinde, son kalan. Gurur verici.",
+    context: "Arkadaşın da gelmek istiyor."
   },
   {
-    title: "Yıldızları İzlerken",
-    description: "Çatıda yıldızları izliyorsunuz.",
-    context: "Biriniz kayan yıldıza dilek tutmak istiyor ama söyleyemiyor."
+    title: "Çatı Yıldızları",
+    description: "Çatıda yıldızları izliyorsun. Dilek tutmak istiyorsun.",
+    context: "Kayan yıldız görüyorsun."
   },
   {
-    title: "Cafe Buluşması",
-    description: "Uzun zamandır görüşmediğiniz biriyle cafedesiniz.",
-    context: "Konu beklenmedik bir şekilde hassas bir konuya geldi."
+    title: "Cafe Masası",
+    description: "Cafede oturuyorsun, uzun zamandır görüşmediğin biriyle. Konuşma hassaslaştı.",
+    context: "Beklenmedik konu."
   },
   {
     title: "Buz Pisti",
-    description: "İlk kez buz pateni yapıyorsunuz.",
-    context: "Biriniz düştü ve kalkamıyor."
+    description: "Buz pateni yapıyorsun, ilk kez. Düşüyorsun.",
+    context: "Kalkamıyorsun."
   },
   {
-    title: "Asansörde Karaoke",
-    description: "AVM asansöründe birinin telefonu yüksek sesle müzik çalıyor.",
-    context: "Şarkı çok tanıdık ve ikiniz de sözlerini biliyorsunuz."
+    title: "Asansör Müzik",
+    description: "Asansörde müzik çalıyor, yüksek sesle. Şarkıyı biliyorsun.",
+    context: "AVM asansörü."
   },
   {
-    title: "Yanlış Oda",
-    description: "Otelde yanlışlıkla birinin odasına girdiniz.",
-    context: "Oda sahibi az sonra kapıdan girecek."
+    title: "Yanlış Oda Kapısı",
+    description: "Otelde yanlış odaya girdin. Oda sahibi gelecek.",
+    context: "Kapıdan girecek."
   },
   {
-    title: "Kedi Kurtarma",
-    description: "Bir ağaca sıkışmış kediyi kurtarmaya çalışıyorsunuz.",
-    context: "Kedi her ikiinize de tıslıyor."
+    title: "Ağaçtaki Kedi",
+    description: "Ağaçtaki kediyi kurtarmaya çalışıyorsun. Korku ve cesaret.",
+    context: "Kedi tıslıyor."
   },
   {
-    title: "Ters Köşe Teklif",
-    description: "Biriniz diğerine beklenmedik bir iş teklifi yapacak.",
-    context: "Teklif reddedilirse arkadaşlık bitebilir."
+    title: "İş Teklifi",
+    description: "Beklenmedik iş teklifi alacaksın. Şaşkınlık.",
+    context: "Reddedilirse arkadaşlık bitebilir."
   },
   {
     title: "Kayıp Telefon",
-    description: "Restoranda telefonunuz kayboldu ve garsonu suçluyorsunuz.",
-    context: "Telefon aslında çantanızın içinde."
+    description: "Telefon kayboldu, restoranda. Garsonu suçluyorsun.",
+    context: "Aslında çantanda."
   },
   {
     title: "Sahil Fırtınası",
-    description: "Plajda aniden hava bozdu ve herkes kaçışıyor.",
-    context: "Şemsiyeniz uçtu ve peşinden koşmanız gerekiyor."
+    description: "Sahilde fırtına başladı, herkes kaçıyor. Şemsiyen uçtu.",
+    context: "Peşinden koşuyorsun."
   },
   {
     title: "Yanlış Hediye",
-    description: "Birbirinize aldığınız hediyeler yanlışlıkla değişti.",
-    context: "Her ikiniz de hediyeyi açmak zorunda."
+    description: "Hediyeler değişti, yanlışlıkla. Açmak zorundasın.",
+    context: "Her ikiniz de açmak zorunda."
   },
   {
-    title: "Komşunun Düğünü",
-    description: "Komşunuzun düğününde en ön masada oturuyorsunuz.",
-    context: "Gelin ve damat sürekli kavga ediyor."
+    title: "Düğün Masası",
+    description: "Düğün masasında oturuyorsun. Gelin damat kavga ediyor.",
+    context: "En ön masa."
   },
   {
-    title: "Otobüste Ayakta",
-    description: "Tıklım tıklım otobüste yan yana ayakta duruyorsunuz.",
-    context: "Otobüs her fren yaptığında birbirinize çarpıyorsunuz."
+    title: "Otobüs İçinde",
+    description: "Otobüste ayakta duruyorsun, tıklım tıklım. Çarpışmalar.",
+    context: "Her fren yaptığında çarpışıyorsun."
   },
   {
     title: "Kaçan Balon",
-    description: "Çocukluk arkadaşınızın elinden balonu uçurdunuz.",
-    context: "Balon çok değerli bir anının sembolü."
+    description: "Balonu uçurdun, değerli anı. Üzüntü.",
+    context: "Çocukluk arkadaşı."
   },
   {
     title: "Yanlış Selfie",
-    description: "Birlikte selfie çekerken arka planda rezil bir şey oldu.",
-    context: "Fotoğraf zaten sosyal medyaya düştü."
+    description: "Selfie çektin, arka plan rezil. Fotoğraf düştü.",
+    context: "Sosyal medya."
   },
   {
-    title: "Sessiz Sinema",
-    description: "Sinemada çok sessiz bir sahnede ikiniz de gülmeye başladınız.",
-    context: "Herkes size dönüp bakıyor."
+    title: "Sinema Koltuğu",
+    description: "Sinemada sessiz sahne, gülüyorsun. Herkes bakıyor.",
+    context: "Sessiz olman gerekiyordu."
   },
   {
     title: "Kayıp Cüzdan",
-    description: "Taksiden indiniz ve cüzdanınız takside kaldı.",
-    context: "Şoför aramıyor ve paranız yok."
+    description: "Cüzdan takside kaldı. Paran yok.",
+    context: "Şoför aramıyor."
   },
   {
     title: "Sürpriz Bebek",
-    description: "Eski bir sevgiliniz size bebekle geldi.",
-    context: "Bebek size benziyor ve etrafta herkes var."
+    description: "Eski sevgili bebekle geldi. Şok içindesin.",
+    context: "Bebek sana benziyor."
   },
   {
     title: "Yanlış Toplantı",
-    description: "Girdiğiniz toplantının size ait olmadığını fark ettiniz.",
-    context: "Sunum yapmanız istendi ve çıkamıyorsunuz."
+    description: "Toplantıya girdin, yanlış. Sunum yapman isteniyor.",
+    context: "Çıkamıyorsun."
   },
   {
-    title: "Mahsur Kalan Asansör",
-    description: "AVM'nin cam asansöründe mahsur kaldınız.",
-    context: "Aşağıda yüzlerce insan size bakıyor."
+    title: "Cam Asansör",
+    description: "AVM asansöründe mahsur. Korku.",
+    context: "Yüzlerce insan bakıyor."
   },
   {
-    title: "Ters Giden Piknik",
-    description: "Piknikte her şey ters gidiyor: yağmur, karıncalar, unutulmuş yiyecekler.",
-    context: "Biriniz 'Harika bir gün!' diye ısrar ediyor."
+    title: "Piknik Yeri",
+    description: "Piknikte her şey ters gitti. Yağmur, karıncalar.",
+    context: "Yiyecek unutuldu."
   },
   {
     title: "Yanlış Mesaj",
-    description: "Patronunuza yazdığınız mesaj yanlışlıkla arkadaş grubuna gitti.",
-    context: "Mesajda patron hakkında bir şeyler yazıyor."
+    description: "Mesaj yanlış gruba gitti. Patron hakkında.",
+    context: "Arkadaş grubuna."
   },
   {
     title: "Korku Evi",
-    description: "Lunaparkın ürkütici evine girdiniz.",
-    context: "Biriniz çok geriliyor ama belli etmemeye çalışıyor."
+    description: "Lunapark korku evinde. Korkun artıyor.",
+    context: "Ürkütücü."
   },
   {
-    title: "Yanlış Numara Araması",
-    description: "Telefonunuz çaldı, açtınız ve karşıdaki kişi sizi tanıyor gibi.",
-    context: "Kişi sizi eski bir dostunuz sanıyor ve duygusal konuşuyor."
+    title: "Yanlış Arama",
+    description: "Telefon çaldı, yanlış kişi. Duygusal konuşuyor.",
+    context: "Seni tanıdığını sanıyor."
   },
   {
-    title: "Son Dilim Pizza",
-    description: "Tabakta son bir dilim pizza kaldı ve ikiniz de almak istiyorsunuz.",
-    context: "Aranızda sessiz bir rekabet var."
+    title: "Son Pizza Dilimi",
+    description: "Son dilim pizza kaldı. İstiyorsun.",
+    context: "Sessiz rekabet."
   },
   {
     title: "Yanlış Araba",
-    description: "Otoparkta yanlış arabaya bindiniz.",
-    context: "Arabanın gerçek sahibi az sonra gelecek."
+    description: "Yanlış arabaya bindin. Sahibi gelecek.",
+    context: "Otoparkta."
   },
   {
-    title: "Beklenmedik Ödül",
-    description: "Katıldığınız bir çekilişi kazandınız ama sahnede konuşma yapmanız gerekiyor.",
-    context: "Mikrofon size verildi ve ne söyleyeceğinizi bilmiyorsunuz."
+    title: "Ödül Sahnesi",
+    description: "Çekiliş kazandın, konuşma yapacaksın. Heyecan.",
+    context: "Mikrofon verildi."
   },
   {
-    title: "Ters Giden Yemek",
-    description: "Birbirinize yemek yapmaya çalıştınız ama her ikisi de yanmış.",
-    context: "Açsınız ve dışarıda restoranlar kapalı."
+    title: "Yanmış Yemek",
+    description: "Yemek yaptın, yandı. Açsın.",
+    context: "Restoranlar kapalı."
   },
   {
     title: "Kayıp Bilet",
-    description: "Konser biletlerinizi bulamıyorsunuz ve kapıda bekliyorsunuz.",
-    context: "Görevli 'Biletsiz giremezsiniz' diyor."
+    description: "Konser bileti kayboldu. Görevli diyor biletsiz giremezsin.",
+    context: "Kapıda bekliyorsun."
   },
   {
     title: "Yanlış Fotoğraf",
-    description: "Aile yemeğinde çekilen fotoğrafta ikiniz de gözünüz kapalı çıktınız.",
-    context: "Fotoğraf aile grubunda paylaşıldı bile."
+    description: "Aile yemeği fotoğrafı, gözlerin kapalı. Paylaşıldı.",
+    context: "Aile grubu."
   },
   {
-    title: "Asansörde Dans",
-    description: "Ofis asansöründe ikiniz de aynı şarkıyı mırıldanmaya başladınız.",
-    context: "Asansör bir anda durdu ve patron içeri girdi."
+    title: "Asansör Müzik",
+    description: "Asansörde şarkı mırıldanıyorsun. Durdu, patron girdi.",
+    context: "Ofis asansörü."
   },
   {
-    title: "Ters Köşe Soru",
-    description: "Bir canlı yayında beklenmedik bir kişisel soru yöneltildi.",
-    context: "Kamera size döndü ve herkes cevabınızı bekliyor."
+    title: "Canlı Yayın",
+    description: "Canlı yayında kişisel soru. Cevap vermelisin.",
+    context: "Kamera döndü."
   },
   {
     title: "Yanlış Kargo",
-    description: "Komşunuzun kargosu size geldi ve içinde çok tuhaf bir şey var.",
-    context: "Komşu kapıyı çalıyor ve kargosunu istiyor."
+    description: "Komşu kargosu sana geldi, tuhaf şey. Komşu istiyor.",
+    context: "Kapıyı çalıyor."
   },
   {
-    title: "Sahilde Kaybolmak",
-    description: "Sisli bir havada sahilde yürürken yolu kaybettiniz.",
-    context: "Telefonun şarjı bitmek üzere."
+    title: "Sahilde Sis",
+    description: "Sahilde sis, yolu kaybettin. Telefon şarjı bitiyor.",
+    context: "Sisli hava."
   },
   {
     title: "Yanlış İsim",
-    description: "Birisi sizi sürekli yanlış isimle çağırıyor.",
-    context: "Düzeltmek istiyorsunuz ama kaba olmak istemiyorsunuz."
+    description: "Seni yanlış isimle çağırıyor. Düzeltmek istiyorsun.",
+    context: "Kaba olmak istemiyorsun."
   },
   {
-    title: "Beklenmedik Ziyaret",
-    description: "Kapı çaldı, açtınız ve karşınızda eski bir öğretmeniniz var.",
-    context: "Öğretmen sizi hâlâ hatırlıyor ve notlarınızı soruyor."
+    title: "Eski Öğretmen",
+    description: "Kapı çaldı, eski öğretmenin. Hatırlıyor.",
+    context: "Notlarını soruyor."
   },
   {
-    title: "Ters Giden Kamp",
-    description: "Kamp çadırı kurulurken rüzgâr her şeyi dağıttı.",
-    context: "Gece oluyor ve hava soğuyor."
+    title: "Kamp Çadırı",
+    description: "Kamp çadırı kurulurken rüzgâr dağıttı. Gece oluyor.",
+    context: "Hava soğuyor."
   },
   {
     title: "Yanlış Rezervasyon",
-    description: "Restoranda rezervasyonunuz var ama isim listede yok.",
-    context: "Restoran dolu ve tek boş masa balayı çiftinin masası."
+    description: "Restoran rezervasyonu yok. Dolu.",
+    context: "Tek boş masa balayı çifti."
   },
   {
     title: "Kayıp Anahtarlık",
-    description: "Birbirinize hediye ettiğiniz anahtarlıklardan birini kaybettiniz.",
-    context: "Diğer kişi sürekli 'Nerede anahtarlığım?' diye soruyor."
+    description: "Anahtarlık kaybettin, hediye ettiğin. Diğer kişi soruyor.",
+    context: "Sürekli soruyor."
   },
   {
-    title: "Ters Geden Sürpriz",
-    description: "Bir arkadaşınıza sürpriz yaptınız ama o sizi yanlış anladı.",
-    context: "Sürpriz tamamen ters tepki ve şimdi durumu kurtarmaya çalışıyorsunuz."
+    title: "Ters Sürpriz",
+    description: "Sürpriz yaptın, yanlış anladı. Durum kurtarmaya çalışıyorsun.",
+    context: "Ters tepki."
   },
   {
     title: "Yanlış Vagon",
-    description: "Trende yanlış vagona bindiniz ve kapılar kapandı.",
-    context: "Arkadaşınız başka vagonda ve bir sonraki durakta ineceksiniz."
+    description: "Trende yanlış vagona bindin. Kapılar kapandı.",
+    context: "Arkadaş başka vagonda."
   },
   {
-    title: "Beklenmedik Buluşma",
-    description: "Eski sevgilinizle aynı kafede karşılaştınız.",
-    context: "Masada sadece bir boş yer var ve oturmak zorundasınız."
+    title: "Eski Sevgili",
+    description: "Kafede eski sevgiliyle karşılaştın. Oturmak zorundasın.",
+    context: "Tek boş yer."
   },
   {
     title: "Yanlış Anlaşılma",
-    description: "Bir şakanız yanlış anlaşıldı ve ortam gerildi.",
-    context: "Herkes size bakıyor ve bir açıklama bekliyor."
+    description: "Şakan yanlış anlaşıldı, ortam gerildi. Açıklama yapmalısın.",
+    context: "Herkes bakıyor."
   }
 ];
